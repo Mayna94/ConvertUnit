@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: #ccd5ae;
+   
+}
+#Data {
+background-color: #3a5a40;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 30px;
+}
+h1 {
+    color: white;
+}
+input {
+    width: 117px;
+    height: 83px;
+    background-color: transparent;
+    border: 1px solid #ccd5ae ;
+    border-radius: 5px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+button {
+    width: 117px;
+    height: 42px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+}
+button:hover {
+  color: #3a5a40;
+  font-size: larger;
+}
+#results {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 47px;
+}
+.box {
+    width: 500px;
+    height: 108px;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h4 {
+    margin-bottom: 10px;
+}
+p {
+    margin-top: 10px;
+}
